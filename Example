@@ -1,0 +1,30 @@
+import java.util.Scanner; 
+
+public class alright {
+
+	public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+System.out.println("What is todays date?");
+System.out.println("A = 10/26/22");
+System.out.println("B = 10/24/22");
+System.out.println("C = 10/27/22");
+System.out.println("D = 10/21/22");
+String UserAnswer = scan.next();
+
+		String Answer1 = "A" ;
+		switch (UserAnswer)
+		{
+		case "A": System.out.println("You are right!");
+			break;
+		case "B":System.out.println("You are wrong!");
+			break;
+		case "C":System.out.println("You are wrong!");
+			break;
+		case "D":System.out.println("You are wrong!");
+			break;
+	
+		} System.out.println("Jediah Dillard");
+	
+		
+}
+}
